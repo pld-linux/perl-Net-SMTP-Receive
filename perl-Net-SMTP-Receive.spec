@@ -3,7 +3,7 @@
 %define	pnam	SMTP-Receive
 Summary:	Net::SMTP::Receive - receive mail via SMTP
 Summary(pl):	Net::SMTP::Receive - odbieranie poczty protoko³em SMTP
-Name:		perl-%{pdir}-%{pnam}
+Name:		perl-Net-SMTP-Receive
 Version:	0.3
 Release:	2
 License:	Public Domain
