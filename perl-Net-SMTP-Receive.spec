@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Net
-%define	pnam	SMTP-Receive
+%define		pdir	Net
+%define		pnam	SMTP-Receive
 Summary:	Net::SMTP::Receive - receive mail via SMTP
 Summary(pl):	Net::SMTP::Receive - odbieranie poczty protoko³em SMTP
 Name:		perl-Net-SMTP-Receive
