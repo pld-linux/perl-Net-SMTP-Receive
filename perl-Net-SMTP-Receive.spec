@@ -5,7 +5,7 @@ Summary:	Net::SMTP::Receive - receive mail via SMTP
 Summary(pl):	Net::SMTP::Receive - odbieranie poczty protoko³em SMTP
 Name:		perl-Net-SMTP-Receive
 Version:	0.3
-Release:	2
+Release:	3
 License:	Public Domain
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
