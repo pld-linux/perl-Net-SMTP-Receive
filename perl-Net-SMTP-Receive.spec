@@ -5,8 +5,8 @@ Summary:	Net::SMTP::Receive - receive mail via SMTP
 Summary(pl):	Net::SMTP::Receive - odbieraj±cy pocztê protoko³em SMTP
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.2
-Release:	2
-License:	free, distributable
+Release:	3
+License:	Freely distributable
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
