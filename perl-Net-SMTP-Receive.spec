@@ -6,7 +6,7 @@ Summary(pl):	Net::SMTP::Receive - odbieranie poczty protoko³em SMTP
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.3
 Release:	2
-License:	freely distributable
+License:	Public Domain
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	0863aa1ee5f5950dc9e13b06927aea90
@@ -39,7 +39,8 @@ pokrywanie metod w podklasie.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 cp example_daemon.pl $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
