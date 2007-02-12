@@ -2,7 +2,7 @@
 %define		pdir	Net
 %define		pnam	SMTP-Receive
 Summary:	Net::SMTP::Receive - receive mail via SMTP
-Summary(pl):	Net::SMTP::Receive - odbieranie poczty protoko³em SMTP
+Summary(pl.UTF-8):   Net::SMTP::Receive - odbieranie poczty protokoÅ‚em SMTP
 Name:		perl-Net-SMTP-Receive
 Version:	0.3
 Release:	3
@@ -21,11 +21,11 @@ a base class that must be subclassed to provide methods for actually
 delivering a message.  Many aspects of Net::SMTP::Receive's behavior
 can be modified by overriding methods in the subclass.
 
-%description -l pl
-Modu³ Net::SMTP::Receive obs³uguje odbieranie poczty po SMTP. Jest
-zbudowany jako klasa bazowa, z której nale¿y dziedziczyæ, aby
-udostêpniæ metody do w³a¶ciwego dostarczania wiadomo¶ci. Wiele
-aspektów zachowania Net::SMTP::Receive mo¿e byæ modyfikowanych poprzez
+%description -l pl.UTF-8
+ModuÅ‚ Net::SMTP::Receive obsÅ‚uguje odbieranie poczty po SMTP. Jest
+zbudowany jako klasa bazowa, z ktÃ³rej naleÅ¼y dziedziczyÄ‡, aby
+udostÄ™pniÄ‡ metody do wÅ‚aÅ›ciwego dostarczania wiadomoÅ›ci. Wiele
+aspektÃ³w zachowania Net::SMTP::Receive moÅ¼e byÄ‡ modyfikowanych poprzez
 pokrywanie metod w podklasie.
 
 %prep
